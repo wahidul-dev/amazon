@@ -44,7 +44,7 @@ const [{ basket }, dispatch] = useStateValue();
                 
             </div>
         </div>
-    )
+    );
 }
 
-export default Header
+export default Header;
