@@ -12,6 +12,7 @@ import Payment from "./Payment";
 import Orders from "./Orders";
 import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
+import Abir from "./Abir";
 
 const promise = loadStripe("pk_test_51HqIrTHqqLq1X971OviRpG0lcJ42YGx1jA5yUB91vB1xqGUH9YDIHvxJ05xLRtVpD1CkSjYm860afcPSEknDyJP000GgxCgN0E");
 
